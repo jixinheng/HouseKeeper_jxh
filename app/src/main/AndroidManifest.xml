@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.feicui.cn.jxh">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/myu"
+        android:label="手机管家"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TelClassActivity" />
+        <activity android:name=".LogoActivity" />
+        <activity android:name=".TelmsgActivity" />
+        <activity android:name=".TellistActivity" />
+        <activity android:name="com.feicui.cn.phone.LeadActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.feicui.cn.housekeeper_jxh.MediaPlayerActivity" />
+        <activity android:name=".TelNumberActivity" />
+        <activity android:name="com.feicui.cn.WelcomeActivity" />
+        <activity android:name="com.feicui.cn.housekeeper_jxh.HomeActivity"></activity>
+    </application>
+
+</manifest>

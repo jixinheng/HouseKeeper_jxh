@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.feicui.cn.phone.LeadActivity">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vp" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/leadicons_marginbottom"
+        android:id="@+id/tv_container"
+        android:gravity="center">
+    
+    
+        <ImageView
+            android:id="@+id/icon1"
+            android:contentDescription="@string/leadtext_description1"
+        android:layout_width="@dimen/leadicons_width"
+        android:layout_height="@dimen/leadicons_height"
+        android:layout_margin="@dimen/leadicons_margin"
+        android:background="@drawable/indicator_unselected"
+        />
+
+        <ImageView
+            android:id="@+id/icon2"
+            android:contentDescription="@string/leadtext_description2"
+            android:layout_width="@dimen/leadicons_width"
+            android:layout_height="@dimen/leadicons_height"
+            android:layout_margin="@dimen/leadicons_margin"
+            android:background="@drawable/indicator_unselected"
+            />
+        <ImageView
+            android:id="@+id/icon3"
+            android:contentDescription="@string/leadtext_description3"
+            android:layout_width="@dimen/leadicons_width"
+            android:layout_height="@dimen/leadicons_height"
+            android:layout_margin="@dimen/leadicons_margin"
+            android:background="@drawable/indicator_unselected" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="立刻开启"
+        android:textSize="24sp"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:id="@+id/jump"
+        android:textColor="#002cef"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

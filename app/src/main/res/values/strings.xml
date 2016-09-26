@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">通讯大全</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="tel_title">一站式号码服务平台</string>
+
+
+    <string name="lead_skiptext">skip</string>
+    <string name="lead_description">Guide page image</string>
+    <string name="leadtext_description1">Small icon1</string>
+    <string name="leadtext_description2">Small icon2</string>
+    <string name="leadtext_description3">Small icon3</string>
+
+
+    <string name="about">关于我们</string>
+    <string name="setting">设置</string>
+    <string name="rocket">手机加速</string>
+    <string name="softmgr">软件管理</string>
+    <string name="phonemgr">手机检测</string>
+    <string name="telmgr">通讯大全</string>
+    <string name="filemgr">文件管理</string>
+    <string name="sdclean">垃圾清理</string>
+</resources>
